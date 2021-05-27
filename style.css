@@ -1,0 +1,41 @@
+
+body {font-family:Arial, Helvetica, sans-serif;
+    height: 100%;
+    background-image: url("images/home1.jpeg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+
+    #header {height:120px;}
+
+    #toprow {height:372px; #; repeat-x;}
+    #toprowsub {height:70px; #; repeat-x;}
+    #toprowsub h2{padding:15px 30px;}
+    #midrow {width:960px;margin:0 auto;}
+    #bottomrow {width:980px; height:300px; margin:0 auto;}
+    
+    /*Menu Begin*/
+#menu{float:right;margin-top:30px;}
+#menu ul li{ display:inline; list-style-type:none;}
+#menu ul li a{padding:5px 0px; font-size:14px; text-decoration:none; margin:0px 10px; font-weight:bold;}
+#menu ul li a span{font-size:16px; text-decoration:none; padding:0px 10px; color:#ff5506;}
+#menu ul li a.active{background:url(images/menur.gif) no-repeat right;}
+#menu ul li a.active span{background:url(images/menul.gif) no-repeat left; padding:5px 10px;color:rgb(5, 5, 5);}
+#menu ul li a:hover{background:url(images/menur.gif) no-repeat right; font-weight:bold;}
+#menu ul li a:hover span{background:url(images/menul.gif) no-repeat left; padding:5px 10px;color:rgb(240, 85, 24);}
+/*Menu End*/
+
+/*Footer*/
+/*Footer*/
+#footer  
+{
+    
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: #6f00ff;
+
+}
+/*Footer END*/
+
